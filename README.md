@@ -17,3 +17,5 @@ Windows + Numpad 8 - Upper half, middle third<br>
 Windows + Numpad 9 - Upper half, right third<br>
 
 You can also use control + the numpad for a big window in the middle and smaller windows all around it, I don't know how to explain what that looks like so just try it.
+
+Thanks to HowToGeek for the resizing portion of it found here - http://www.howtogeek.com/howto/28663/create-a-hotkey-to-resize-windows-to-a-specific-size-with-autohotkey/
