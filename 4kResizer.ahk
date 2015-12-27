@@ -55,43 +55,43 @@ return
 ^Numpad1::
 WinWait, A
 WinMove, 0, 1065
-ResizeWin(960,1065)
+ResizeWin(1120,1065)
 return
 
 ^Numpad2::
 WinWait, A
-WinMove, 960, 1780
-ResizeWin(1920,350)
+WinMove, 1120, 1780
+ResizeWin(1600,350)
 return
 
 ^Numpad3::
 WinWait, A
-WinMove, 2880, 1065
-ResizeWin(960,1065)
+WinMove, 2720, 1065
+ResizeWin(1120,1065)
 return
 
 ^Numpad5::
 WinWait, A
-WinMove, 960, 350
-ResizeWin(1920,1430)
+WinMove, 1120, 350
+ResizeWin(1600,1430)
 return
 
 ^Numpad7::
 WinWait, A
 WinMove, 0, 0
-ResizeWin(960,1065)
+ResizeWin(1120,1065)
 return
 
 ^Numpad8::
 WinWait, A
-WinMove, 960, 0
-ResizeWin(1920,350)
+WinMove, 1120, 0
+ResizeWin(1600,350)
 return
 
 ^Numpad9::
 WinWait, A
-WinMove, 2880, 0
-ResizeWin(960,1065)
+WinMove, 2720, 0
+ResizeWin(1120,1065)
 return
 
 ResizeWin(Width = 0,Height = 0)
