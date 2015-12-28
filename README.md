@@ -3,19 +3,17 @@ Autohotkey script to arrange windows on a single 4k monitor with keyboard shortc
 
 Setup:<br>
 Install autohotkey<br>
-Run script<br>
+Save .ahk to computer<br>
+Right click on .ahk and run with autohotkey<br>
 
 Shortcuts:<br>
-Windows + Numpad 1 - Lower half, left third<br>
-Windows + Numpad 2 - Lower half, middle third<br>
-Windows + Numpad 3 - Lower half, right third<br>
-Windows + Numpad 4 - Full height, left third<br>
-Windows + Numpad 5 - Full height, middle third<br>
-Windows + Numpad 6 - Full height, right third<br>
-Windows + Numpad 7 - Upper half, left third<br>
-Windows + Numpad 8 - Upper half, middle third<br>
-Windows + Numpad 9 - Upper half, right third<br>
+Win+Numpad(1-3) sets lower half thirds<br>
+Win+Numpad(4-6) sets full height thirds<br>
+Win+Numpad(7-9) sets upper half thirds
 
-You can also use control + the numpad for a big window in the middle and smaller windows all around it, I don't know how to explain what that looks like so just try it.
+CTRL+Numpad(1-9) sets a slightly larger window right in the middle (5) and smaller windows around it
+
+CTRL+Win/Alt+Numpad(2,4,5,6,8) aligns the left/right third(ish) sections with tall skinny thirds and top and bottom banners<br>
+this arrangement was made specifically for Visual Studio toolbar management
 
 Thanks to HowToGeek for the resizing portion of it found here - http://www.howtogeek.com/howto/28663/create-a-hotkey-to-resize-windows-to-a-specific-size-with-autohotkey/
