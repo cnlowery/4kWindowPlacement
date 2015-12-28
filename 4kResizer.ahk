@@ -1,4 +1,4 @@
-resizeWindow(Width = 0,Height = 0)
+ResizeWin(Width = 0,Height = 0)
 {
   WinGetPos,X,Y,W,H,A
   If %Width% = 0
