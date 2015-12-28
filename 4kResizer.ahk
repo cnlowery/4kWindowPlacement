@@ -1,4 +1,16 @@
-;thirds and half thirds
+resizeWindow(Width = 0,Height = 0)
+{
+  WinGetPos,X,Y,W,H,A
+  If %Width% = 0
+    Width := W
+
+  If %Height% = 0
+    Height := H
+
+  WinMove,A,,%X%,%Y%,%Width%,%Height%
+}
+
+;win thirds and half thirds
 #Numpad1::
 WinWait, A
 WinMove, 0, 1065
@@ -169,15 +181,3 @@ WinWait, A
 WinMove, 2620, 0
 ResizeWin(1220,350)
 return
-
-ResizeWin(Width = 0,Height = 0)
-{
-  WinGetPos,X,Y,W,H,A
-  If %Width% = 0
-    Width := W
-
-  If %Height% = 0
-    Height := H
-
-  WinMove,A,,%X%,%Y%,%Width%,%Height%
-}
